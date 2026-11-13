@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ========== إعدادات الصفحة الأساسية ========== -->
+  <meta charset="UTF-8">
+  <!-- لجعل الصفحة متجاوبة مع الجوال -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leon | Template One</title>
+
+  <!-- استيراد الخط من Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- ربط ملف التنسيق -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== الهيدر: الشعار + زر القائمة ========== -->
+  <header class="header">
+
+    <!-- الشعار (خط عمودي + دائرة) -->
+    <a href="#home" class="logo" aria-label="Leon home">
+      <span class="logo-bar"></span>
+      <span class="logo-circle"></span>
+    </a>
+
+    <!-- خانة اختيار مخفية للتحكم بفتح/إغلاق القائمة بدون JavaScript -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <!-- أيقونة القائمة (ثلاث خطوط) -->
+    <label for="menu-toggle" class="menu-icon" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- روابط التنقل -->
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== القسم الرئيسي (Hero) بصورة الخلفية ========== -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <!-- العنوان الرئيسي -->
+        <h1>Hello There</h1>
+        <!-- النص التوضيحي -->
+        <p>modi minus laborum nobis a deserunt quis.</p>
+      </div>
+    </section>
+
+    <!-- ========== قسم About (الرابط #about في الصفحة) ========== -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus laborum nobis a deserunt quis.</p>
+    </section>
+
+    <!-- ========== قسم Contact ========== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Write to us anytime at hello@leon.example.</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
